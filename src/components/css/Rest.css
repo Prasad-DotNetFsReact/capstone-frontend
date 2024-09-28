@@ -1,0 +1,68 @@
+.restaurant-card {
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s;
+}
+
+.restaurant-card:hover {
+  transform: scale(1.02);
+}
+
+.btn-custom {
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 10px;
+}
+
+.btn-custom:hover {
+  background-color: #ff5722;
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Review section styling */
+.review-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: 5px;
+}
+
+.text-warning {
+  color: #ffcc00;
+}
+
+.text-muted {
+  color: #ccc;
+}
+
+.restaurant-card .card-title,
+.restaurant-card .card-text {
+  color: #333;
+}
+
+.restaurant-card .card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .restaurant-card {
+    margin-bottom: 20px;
+  }
+
+  .btn-custom {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

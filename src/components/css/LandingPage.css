@@ -1,0 +1,171 @@
+/* LandingPage.css */
+.landing-container {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color:#CB202D
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color:  white;
+}
+
+.login-button .btn {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.login-button {
+  display: flex;
+  gap: 10px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.sidechef.com/recipe/3883dffb-5fa2-4ee9-8054-d8de1409899f.jpg?d=1408x1120');
+  color: white;
+  text-align: left;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  padding: 15px 30px;
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-transparent-image {
+  position: relative;
+  max-width: 500px;
+}
+
+.transparent-image {
+  opacity: 0.8;
+  width: 100%;
+}
+
+.slider-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+.slider-section h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Carousel image adjustments */
+.carousel .slide img {
+  width: auto;
+  height: 300px; /* Adjust the height to control the size */
+  object-fit: cover;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for style */
+  margin: auto; /* Center the image */
+}
+
+.carousel .legend {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  color: white;
+}
+
+/* Additional carousel styling */
+.carousel .control-arrow {
+  background: rgba(0, 0, 0, 0.3); /* Transparent arrow background */
+}
+
+.carousel .control-arrow:hover {
+  background: rgba(0, 0, 0, 0.5); /* Darker hover effect */
+}
+
+.carousel .control-dots .dot {
+  background: #ff6600; /* Custom dot color */
+  border-radius: 50%;
+}
+
+.carousel .control-dots .dot.selected {
+  background: #000; /* Color for the selected dot */
+}
+
+.services {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+.services h2 {
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.service-icon {
+  font-size: 50px;
+  color: #ff6600;
+}
+
+/* Carousel overrides */
+.carousel .legend {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  color: white;
+}
+
+.how-it-works {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.step {
+  width: 20%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.step h3 {
+  margin-bottom: 10px;
+}
+
+.step p {
+  color: #555;
+}

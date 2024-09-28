@@ -1,0 +1,25 @@
+.menu-list-container {
+  padding: 20px;
+}
+
+.menu-image {
+  max-width: 100px;
+  height: auto;
+}
+
+.menu-table {
+  width: 100%;
+}
+
+.menu-table img {
+  max-width: 100px;
+  height: auto;
+}
+
+.menu-table th,
+.menu-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+  

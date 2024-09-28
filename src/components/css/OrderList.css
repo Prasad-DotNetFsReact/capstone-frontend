@@ -1,0 +1,40 @@
+.order-list-container {
+    background-color: #f8f9fa;
+    padding-bottom: 30px; 
+    border-radius: 8px;
+  }
+  
+  .order-title {
+    color: #007bff; 
+    font-weight: bold;
+  }
+  
+  .order-card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+    background-color: #ffffff;
+  }
+  
+  .order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .order-items-list {
+    padding-left: 15px;
+    list-style: none;
+  }
+  
+  .order-item {
+    font-size: 14px;
+    color: #6c757d; 
+    margin-bottom: 5px;
+  }
+  
+  .no-orders {
+    color: #dc3545; 
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

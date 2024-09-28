@@ -1,0 +1,31 @@
+.add-restaurant-card {
+    width: 400px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .add-restaurant-card h3 {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .add-restaurant-card .form-label {
+    font-weight: 500;
+  }
+  
+  .btn-custom {
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-custom:hover {
+    background-color: #ff3e30;
+  }
+  
+  .vh-100 {
+    height: 100vh;
+  }
+  
